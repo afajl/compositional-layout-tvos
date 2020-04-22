@@ -9,18 +9,14 @@
 /* Begin PBXBuildFile section */
 		0FC2C4902450677C0005933E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2C48F2450677C0005933E /* AppDelegate.swift */; };
 		0FC2C4922450677C0005933E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2C4912450677C0005933E /* ViewController.swift */; };
-		0FC2C4952450677C0005933E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2C4932450677C0005933E /* Main.storyboard */; };
 		0FC2C4972450677D0005933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2C4962450677D0005933E /* Assets.xcassets */; };
-		0FC2C49A2450677D0005933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2C4982450677D0005933E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FC2C48C2450677C0005933E /* compositional-layout-tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "compositional-layout-tvos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC2C48F2450677C0005933E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FC2C4912450677C0005933E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FC2C4942450677C0005933E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FC2C4962450677D0005933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FC2C4992450677D0005933E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FC2C49B2450677D0005933E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +52,7 @@
 			children = (
 				0FC2C48F2450677C0005933E /* AppDelegate.swift */,
 				0FC2C4912450677C0005933E /* ViewController.swift */,
-				0FC2C4932450677C0005933E /* Main.storyboard */,
 				0FC2C4962450677D0005933E /* Assets.xcassets */,
-				0FC2C4982450677D0005933E /* LaunchScreen.storyboard */,
 				0FC2C49B2450677D0005933E /* Info.plist */,
 			);
 			path = "compositional-layout-tvos";
@@ -122,9 +116,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC2C49A2450677D0005933E /* LaunchScreen.storyboard in Resources */,
 				0FC2C4972450677D0005933E /* Assets.xcassets in Resources */,
-				0FC2C4952450677C0005933E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,25 +133,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0FC2C4932450677C0005933E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FC2C4942450677C0005933E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0FC2C4982450677D0005933E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FC2C4992450677D0005933E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0FC2C49C2450677D0005933E /* Debug */ = {
